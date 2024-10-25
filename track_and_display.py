@@ -93,7 +93,7 @@ def index():
     Returns:
         str: The HTML content for the main page.
     """
-    html_template = '''
+     html_template = '''
     <!DOCTYPE html>
     <html lang="en">
     <head>
