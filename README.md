@@ -1,64 +1,80 @@
-The AI Assisted Autonomous Ground Combat Vehicle (AGCV) project is designed to create a robotic system capable of autonomously detecting and targeting humans for security and defense applications. This project leverages advanced computer vision technology integrated with robotic control systems to achieve high precision and reliability in threat detection and engagement. Using the YOLO v5 model for accurate human detection and a laser module for targeting, the system ensures precise engagement of human targets.
+# AI-Assisted Autonomous Ground Combat Vehicle (AGCV)
 
-**Domain Description**
-This project lies at the intersection of robotics, artificial intelligence, and security systems. Robotics advancements have allowed the development of autonomous systems capable of performing complex tasks without human intervention. With machine learning and computer vision, machines now interpret visual data, enabling high-accuracy object and action recognition.
+The **AI-Assisted Autonomous Ground Combat Vehicle (AGCV)** is a robotic system designed for autonomous detection and targeting of human threats, aimed at enhancing security and defense applications. Leveraging **advanced computer vision** integrated with robotic control systems, this project achieves high precision and reliability in threat detection and engagement.
 
-The AGCV addresses the demand for automated security solutions capable of enhancing surveillance and providing rapid response in high-risk scenarios. By autonomously patrolling, detecting, and engaging human targets, the AGCV minimizes human risk in dangerous tasks, providing a robust solution for modern security needs.
+## Table of Contents
+- [Domain Description](#domain-description)
+- [Motivation](#motivation)
+- [Hardware Integration](#hardware-integration)
+- [Software Development](#software-development)
+- [System Testing](#system-testing)
+- [User Interface](#user-interface)
+- [Technologies Used](#technologies-used)
+- [Installation and Setup](#installation-and-setup)
+- [Future Enhancements](#future-enhancements)
 
-**Motivation**
-The AGCV project aims to create a next-generation security solution, addressing the limitations of traditional security methods that rely heavily on human involvement. Such systems can be risky, resource-intensive, and slow. The AGCV serves as an autonomous ally in high-risk tasks, enhancing safety and efficiency.
+---
 
-**Hardware Integration**
-The project’s hardware components include:
+## Domain Description
 
-ESP32: Microcontroller for primary processing and control tasks.
-ESP8266: Wi-Fi module for wireless communication.
-Arduino: Microcontroller for handling additional control functions.
-Relay Modules: Control high-power components like gear motors.
-Servo Motors: Four servos for precise targeting.
-Joysticks: For manual control and user input.
-Laser Module: For precise targeting of detected human threats.
-Software Development
+This project resides at the intersection of **robotics, artificial intelligence, and security systems**. The AGCV autonomously patrols, detects, and engages human targets to minimize human risk in high-risk situations. **Machine learning** and **computer vision** enable precise object and action recognition, addressing the demand for automated security solutions capable of rapid response in critical scenarios.
 
-**The software development process involves:**
+## Motivation
 
-YOLO v5 Model Training: Training YOLO v5 for accurate human detection.
-Control Algorithms: Developing control algorithms for navigation, targeting, and engagement functions.
+Traditional security methods that rely on human intervention are often risky, resource-intensive, and slow. The AGCV aims to be a **next-generation security solution** that autonomously handles high-risk tasks, thus enhancing safety and operational efficiency.
 
-**System Testing**
-Comprehensive testing ensures the AGCV’s reliability and responsiveness in various environments:
+---
 
-Terrain Testing: Validates navigation across diverse terrains and conditions.
-Human Detection Accuracy: Tests the detection and targeting accuracy.
-Performance Optimization: Identifies and resolves operational issues.
+## Hardware Integration
 
-**User Interface**
-A user-friendly interface enables remote control and monitoring, allowing operators to:
+| Component           | Description                                  |
+|---------------------|----------------------------------------------|
+| **ESP32**           | Microcontroller for primary processing and control |
+| **ESP8266**         | Wi-Fi module for wireless communication       |
+| **Arduino**         | Additional control functions                  |
+| **Relay Modules**   | Controls high-power components (e.g., motors) |
+| **Servo Motors**    | Four servos for precise targeting            |
+| **Joysticks**       | Enables manual control and user input        |
+| **Laser Module**    | Provides precise targeting for human threats |
 
-Manual Control: Operate the vehicle using joysticks.
-Status Monitoring: Observe real-time status and data.
+---
 
-**Technologies Used**
-Programming Languages: C, Python (for vision processing)
-Libraries/Models: YOLO v5 (for human detection)
+## Software Development
 
-**Installation and Setup**
+1. **YOLO v5 Model Training**: Trains YOLO v5 for accurate human detection.
+2. **Control Algorithms**: Develops algorithms for navigation, targeting, and engagement.
 
-**Clone the Repository:**
+---
 
+## System Testing
+
+- **Terrain Testing**: Verifies AGCV's navigation capabilities across various terrains.
+- **Human Detection Accuracy**: Evaluates the detection and targeting accuracy.
+- **Performance Optimization**: Identifies and resolves operational issues to enhance reliability.
+
+---
+
+## User Interface
+
+The AGCV offers a **user-friendly interface** with the following capabilities:
+
+- **Manual Control**: Operate the vehicle with joysticks.
+- **Status Monitoring**: Observe real-time data and system status.
+
+---
+
+## Technologies Used
+
+- **Programming Languages**: C, Python (for vision processing)
+- **Libraries/Models**: YOLO v5 (human detection)
+
+---
+
+## Installation and Setup
+
+### Clone the Repository
+
+```bash
 git clone https://github.com/Silajeet0/unmanned_ground_combat_vehicle.git
 cd unmanned_ground_combat_vehicle
 
-**Install Python Dependencies (for human tracking):**
-pip install -r requirements.txt
-
-**Upload Code to Arduino and ESP Modules:**
-
-Vehicle Controller: Upload car_control.ino to the Arduino.
-ESP Transmission: Upload transmitter.ino to ESP modules for wireless control.
-
-**Future Enhancements**
-
-Gaze Detection: Adding gaze detection for enhanced threat assessment.
-Swarm Intelligence: Implementing communication between multiple AGCV units.
-Autonomous Navigation: Enabling pathfinding and navigation in complex environments.
