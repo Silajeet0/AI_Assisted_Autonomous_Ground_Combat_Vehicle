@@ -57,16 +57,6 @@ pip install -r requirements.txt
 Vehicle Controller: Upload car_control.ino to the Arduino.
 ESP Transmission: Upload transmitter.ino to ESP modules for wireless control.
 
-**Project Structure:**
-
-├── human_tracking_detection/
-│   ├── detection.c             # Code for human detection
-│   └── tracking_algorithm.py   # Python tracking algorithm
-├── vehicle_controller/
-│   ├── controller.ino          # Arduino code for vehicle movement
-│   └── esp_transmission.ino    # ESP communication code
-├── README.md                   # Documentation
-
 **Future Enhancements**
 
 Gaze Detection: Adding gaze detection for enhanced threat assessment.
