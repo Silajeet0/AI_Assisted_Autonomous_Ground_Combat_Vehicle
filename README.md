@@ -41,7 +41,7 @@ Traditional security methods that rely on human intervention are often risky, re
 
 ## Software Development
 
-1. **YOLO v5 Model Training**: Trains YOLO v5 for accurate human detection.
+1. **YOLO v5 Model Training**: Train YOLOv5s for accurate human detection.
 2. **Control Algorithms**: Develops algorithms for navigation, targeting, and engagement.
 
 ---
