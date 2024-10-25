@@ -77,4 +77,19 @@ The AGCV offers a **user-friendly interface** with the following capabilities:
 ```bash
 git clone https://github.com/Silajeet0/unmanned_ground_combat_vehicle.git
 cd unmanned_ground_combat_vehicle
+```
 
+### Install Python Dependencies (for human tracking)
+
+```bash
+pip install -r requirements.txt
+```
+
+### Upload Code to Arduino and ESP Modules
+- **Vehicle Controller**: Upload car_control.ino to the Arduino.
+- **ESP Transmission**: Upload transmitter.ino to ESP modules for wireless control.
+
+### Future Enhancements
+- **Gaze Detection:** Add gaze detection for advanced threat assessment.
+- **Swarm Intelligence:** Enable communication between multiple AGCV units for collaborative operation.
+- **Autonomous Navigation:** Implement pathfinding and navigation in complex environments
