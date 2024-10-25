@@ -75,7 +75,7 @@ The AGCV offers a **user-friendly interface** with the following capabilities:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/Silajeet0/unmanned_ground_combat_vehicle.git
+git clone https://github.com/Silajeet0/AI_Assisted_Autonomous_Ground_Combat_Vehicle.git
 cd unmanned_ground_combat_vehicle
 ```
 
