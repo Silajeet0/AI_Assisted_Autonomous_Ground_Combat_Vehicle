@@ -1,5 +1,7 @@
 # AI-Assisted Autonomous Ground Combat Vehicle (AGCV)
 
+**This project is currently under development. The creator disclaims any responsibility for any issues, damages, or consequences arising from the use of the code.**
+
 The **AI-Assisted Autonomous Ground Combat Vehicle (AGCV)** is a robotic system designed for autonomous detection and targeting of human threats, aimed at enhancing security and defense applications. Leveraging **advanced computer vision** integrated with robotic control systems, this project achieves high precision and reliability in threat detection and engagement.
 
 ## Table of Contents
